@@ -60,6 +60,11 @@ alianza(deRivoria,deDurania).
 rival(rodolfo,felipe).
 rival(clara,catalina).
 
+celebra(X,fiestaRio) :- familia(X,deRivoria).
+celebra(X,fiestaLuna) :- familia(X,deMontelar).
+celebra(X, fiestaGrano) :- familia(X,deDurania).
 
-
+cree(X,agua) :- celebra(X,fiestaRio).
+cree(X,montana) :- celebra(X,fiestaLuna).
+cree(X,tierra) :- celebra(X,fiestaGrano).
 
