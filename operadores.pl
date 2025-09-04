@@ -58,3 +58,14 @@ es_hermano(A, B) :-
     hijo(B, Padre2),
     hijo(_, Padre1) = hijo(_, Padre2), 
     A \== B.
+
+# ejercicios hechos fuerda de la hora clase para repaso
+distancia(X1,X2,Y1,Y2,D) :-
+    DX is X2 -X1,
+    DY is Y2-Y1,
+    D is sqrt(DX*DX + DY*DY).
+
+conversor(Grados, Radianes) :-
+    Radianes is Grados * pi /180.
+
+
