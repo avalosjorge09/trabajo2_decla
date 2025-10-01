@@ -1,4 +1,4 @@
-- Luis Mario Cabrera 00002022
+- jorge Mario Cabrera 00002022
 -  Javier Alejandro Gonzales 00088022
 -  Gabriela Lissette Valiente 00010122
 -  Jorge Eduardo Avalos 00009322
